@@ -1166,6 +1166,7 @@ interface JQueryStatic {
  */
 interface JQuery {
     mask(mask: string);
+    mask(mask: string, opt?: any);
     cleanVal();
     /**
      * Register a handler to be called when Ajax requests complete. This is an AjaxEvent.
